@@ -6,7 +6,42 @@
     <title>Mreader</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    body{
+       background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        
+    }
+    .box{
+        display : flex;
+        flex-direction : column;
+        align-items: center ;
+        justify-content: space-around;
+        height: 400px;
+        width: 300px;
+        border: black 2px solid;
+        background-color: white;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    button{
+        height: 20px;
+        width: 50px;
+        background-color: black;
+        color: white;   
+    }
+    
+</style>
 <body>
+    <div class="box">
+        <h1>Mind Reader</h1>
+        <input type="text" style="height: 30px;width: 130px;text-align:center">
+        <button>Reset</button>
+    </div>
     
     <script src="script.js"></script>
 </body>
